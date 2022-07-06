@@ -1,0 +1,21 @@
+{
+  "name": "my_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export GOOGLE_APPLICATION_CREDENTIALS='C:/Users/Raunak/Desktop/my_bot/gcloud-private-key.json' node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^5.0.0",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "twitter-lite": "^1.1.0"
+  }
+}
